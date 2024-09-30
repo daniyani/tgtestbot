@@ -7,7 +7,7 @@ import { onHandlers } from './listeners/on'
 
 dotenv.config()
 
-const bot = new Bot(process.env.BOT_API_KEY || '')
+const bot = new Bot('7811992946:AAFXPWh4YUL4wE_n1Yc_Lykb39KEGvcwAS4' || '')
 
 bot.api.setMyCommands([
 	{ command: 'start', description: 'Запуск бота' },
